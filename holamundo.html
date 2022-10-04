@@ -1,0 +1,31 @@
+<htm>
+    <head>
+        <title>
+            Mi primer JS
+        </title>
+    </head>
+    <body>
+        <h1>Hola mundo en JS </h1>
+
+        <script>
+            alert("Hola Mundo") 
+        </script>
+        <p>Queremos saludarte, pero para esto necesitamos saber tu nombre</p>
+        <form id="formulario">
+            Escribe tu nombre aqui: <input type="text" id="nombre">
+            <input type="button" value="saludar"onclick="miFuncion()">
+        </form>
+        <script>
+            function miFuncion(){
+                var name = document.getElementById("nombre").value;
+                alert("Hola "+name+",Como estas?")
+
+            }
+
+
+        </script>
+        
+        
+
+    </body>
+</htm>
